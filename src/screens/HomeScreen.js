@@ -34,6 +34,10 @@ const HomeScreen = ({ navigation }) => {
         title="Go to Text Demo" 
         onPress={() => navigation.navigate("Text")} 
       />
+      <Button 
+        title="Go to Box Demo" 
+        onPress={() => navigation.navigate("Box")} 
+      />
       {/* more flexibility than the simple Button; can make anything tappable */}
       <TouchableOpacity onPress={() => console.log('catch me in the terminal, fool!')}>
         <Text>Console Log in the Terminal!!</Text>
